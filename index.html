@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HBD by Sandreke</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="form-container">
+    <form id="name-form">
+      <label for="name-input">Hoy es cumpleaños de... ❤️?</label>
+      <input type="text" id="name-input" maxlength="20" placeholder="Escribe el nombre..." required>
+      <button type="submit">Ver sorpresa</button>
+      <div id="credits-form">Te desea un feliz cumpleaños Migue</div>
+    </form>
+  </div>
+
+  <canvas id="sky-canvas"></canvas>
+  
+  <div id="credits">Te desea un feliz cumpleaños Migue</div>
+
+  <div id="birthday-card" class="hidden">
+    <div class="card-content">
+      <h2>¡Feliz Cumpleaños!</h2>
+      <p>
+        Este año que celebras es una oportunidad para reflexionar sobre todo lo que has vivido, crecido y aprendido.<br><br>
+        Deseo que cada día te acerques más a tus sueños, disfrutes los pequeños momentos, y celebres el amor que te rodea.<br><br>
+        Recuerda: lo más importante no es la meta sino el camino. ¡Disfrútalo mucho!<br>
+        Te quiero mucho, Migue.
+      </p>
+      <button id="close-card-btn">Cerrar</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
